@@ -1,0 +1,62 @@
+<html>
+    <head>
+    <title>MSWD</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body bgcolor="#B6C4B6">
+        <h2 align="center">Student Information System</h2>
+      
+
+        <nav>
+            <ul>
+                <li><a href="studenthome.html">Home</a>
+                    <li><a href="profile.html">Profile</a>
+                    <li><a href="assignments.html">Assignments</a>
+                    <li><a href="login.html">Logout</a>
+            </ul>
+            
+        </nav>
+        
+        <br><br>
+    <center>
+        <form method="post" action="#">
+            <table>
+                <tr>
+                    <td><label>Select the course</label></td>
+                    <td>
+                        <select name="course" required><!----Multiple is used to select more than one options using the control button-->
+                            <option value="">--Select--</option>
+                            <option value="DDAIS">DDAIS</option>
+                            <option value="AOOP">AOOP</option>
+                            <option value="PSQT">PSQT</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Upload the file</label></td>
+                    <td><input type="file" required></td>
+                </tr>
+               
+
+                <tr>
+                    
+                    <td>
+                        <textarea name="remarks" placeholder="Enter Remarks"></textarea>
+                    </td>
+                </tr>
+
+                <tr align="center">
+                    <td><input type="submit" value="Submit" class="button" /></td>
+                    <td><input type="reset" value="Clear" class="button" /></td>
+
+                </tr>
+        
+        
+
+        <br/><br/>
+
+        <b>Submit Assignment</b>
+    </body>
+</html> 

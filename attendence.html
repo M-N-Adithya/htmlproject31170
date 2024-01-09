@@ -1,0 +1,68 @@
+<html>
+    <head>
+    <title>MSWD</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body bgcolor="#B6C4B6">
+        <h2 align="center">Faculty Information System</h2>
+      
+
+        <nav>
+            <ul>
+                <li><a href="facultyhome.html">Home</a>
+                    <li><a href="facultyprofile.html">Profile</a>
+                    <li><a href="attendence.html">Attendance</a>
+                    <li><a href="login.html">Logout</a>
+            </ul>
+            
+        </nav>
+        
+        <br><br>
+    <center>
+        <form method="post" action="#">
+            <table>
+                <tr>
+                    <td><label>Select the course</label></td>
+                    <td>
+                        <select name="course" required><!----Multiple is used to select more than one options using the control button-->
+                            <option value="">--Select--</option>
+                            <option value="MSWD">MSWD</option>
+                            <option value="JFSD">JFSD</option>
+                            
+                        </select>
+
+                    </td>
+                </tr>
+                
+                <td>
+                    <label>Select status</label>
+                </td>
+                <td>
+                    <input type="radio" name="attend" value="P" required />Present
+                        <input type="radio" name="attend" value="A" required />Absent
+                        
+                   
+
+                </td>
+
+                <tr>
+                    
+                    <td>
+                        <textarea name="remarks" placeholder="Enter Remarks"></textarea>
+                    </td>
+                </tr>
+
+                <tr align="center">
+                    <td><input type="submit" value="Post" class="button" /></td>
+                    <td><input type="reset" value="Clear" class="button" /></td>
+
+                </tr>
+        
+        
+
+        <br/><br/>
+
+        
+    </body>
+</html> 
